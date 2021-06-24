@@ -9,7 +9,6 @@ import { Country, ContainerPrefix, AddressFinderWidgetSrc } from './constants';
 import { window } from './globals';
 import { AddressMeta, Address } from './types';
 import { addressMetaToAddress } from './helpers';
-import './widget.css';
 
 export interface Props
   extends DetailedHTMLProps<
